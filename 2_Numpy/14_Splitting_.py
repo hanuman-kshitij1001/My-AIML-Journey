@@ -11,3 +11,26 @@ np.vsplit(a,3)  # Ye apke 3 No Rows Ko Alg Kar dega
 
 
 # Ek Data Soce Se multiple Cheeze bante hi toh waha pe Splite ka kaam ata hai 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
