@@ -2,7 +2,15 @@
 import pandas as pd
 movies = pd.read_csv("03_Pandas/03_Pandas_Data_Frame_.py/02_Data_set_IPL_.csv")
 ipl = pd.read_csv("03_Pandas/03_Pandas_Data_Frame_.py/03_Data_Set_movies_.csv")
+student_data = [  # Esme 
+    [100,80,10],
+    [90,70,7],
+    [120,100,14],
+    [80,50,2]
+]
 
+a = pd.DataFrame(student_data, columns=['iq','marks', 'package'])
+print(a)
 
 #1 movies.shape
 a = ipl.shape
