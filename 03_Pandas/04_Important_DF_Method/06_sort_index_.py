@@ -30,4 +30,4 @@ print(b)
 
 # yaha Movies wale data frame ko sort karunga from basis of index
 # automatically kya honga jo data index sabse bada honga wo sabse upper a jayega
-print(movies.sort_index(ascending=False))
+print(batsman.set_index('batter',inplace=True))
