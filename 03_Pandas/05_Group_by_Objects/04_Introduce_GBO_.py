@@ -99,5 +99,3 @@ print(genres.describe())
 print(genres.sample(2,replace=True))
 
 print(genres.nunique())
-
-print(a)
