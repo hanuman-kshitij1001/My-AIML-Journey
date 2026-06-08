@@ -73,3 +73,29 @@ print(a)
 # movies['Star1'].value_counts()
 a = imdb.groupby('Star1')['Series_Title'].count().sort_values(ascending=False)
 print(a)
+
+#Q7: # find total number of groups -> len
+print(len(imdb.groupby("Genre")))
+
+
+#Q8: # find items in each group -> size
+a = imdb.groupby('Genre').size()
+print(a)
+
+
+#Q 9: first()/last() -> nth item
+
+# Ham Log genres ka Goup banate hai usse group by kar denge jisse bar bar nahi likhna padega
+
+genres = imdb.groupby('Genre')
+# genres.first()
+# genres.last()
+print(genres.nth(6))
+
+print(genres.groups)
+
+print(genres.describe())
+
+print(genres.sample(2,replace=True))
+
+print(genres.nunique())
