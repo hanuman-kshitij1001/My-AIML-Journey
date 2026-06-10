@@ -15,4 +15,4 @@ temp_df = pd.DataFrame({
 df = students.merge(nov, how="outer", on="outer")
 
 # esme common aur apna apna har ek cheeze dikhai deti hia 
-# sab kuch a jate hai Esme Theek 
+# sab kuch a jate hai Esme Theek
