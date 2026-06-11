@@ -8,6 +8,6 @@ import seaborn as sns
 
 children = [10,20,40,10,30]
 colors = ['red','blue','green','yellow','pink']
-
+print()
 plt.barh(colors,children,color='black')
 plt.show()
