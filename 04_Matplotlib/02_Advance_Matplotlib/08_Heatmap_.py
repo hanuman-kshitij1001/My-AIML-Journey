@@ -27,3 +27,7 @@ plt.yticks(ipl['overs'].unique(), list(range(1,21)))
 plt.xticks(np.arange(0,6), list(range(1,7)))
 plt.colorbar()
 plt.show()
+
+
+
+# Heat map haam Aur Padhnge jab Haam Seaborn Padhenge Theek ha na 
