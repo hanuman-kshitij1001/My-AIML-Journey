@@ -10,3 +10,4 @@ df = pd.DataFrame({
 })
 df.to_csv("students.csv")
 # Ye ek nayi file bana dega:  students.csv  se 
+# Bass Yahi Tarika hai Csv me Banane ke Theek hai na 
