@@ -68,3 +68,4 @@ print(adverse_reactions)
 print(patients)
 print(treatments)
 print(treatments_cut)
+
