@@ -115,3 +115,13 @@ plt.show()
 # b. You can plots like heatmap, stacked barplots, treemaps
 
 # Write your conclusions  ?
+
+
+
+
+
+#4- Now we will move to feature engineering and feature selection
+
+
+# feature engineering on fare column
+train[[train['sibsp'] == 8]] 
