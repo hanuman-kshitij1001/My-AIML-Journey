@@ -56,7 +56,7 @@ print("Total number of passengers having fare greater than 250 is : ", Total_far
 
 
 
-#Steps of doing Univariate Analysis on Categorical columns
+#2-Steps of doing Univariate Analysis on Categorical columns
 
 # Descriptive Statistics: Compute the frequency distribution of the categories in the column.
 #                         This will give a general understanding of the distribution of the categories and
@@ -94,3 +94,24 @@ train['Survived'].value_counts().plot(kind='pie', autopct='%1.1f%%')
 # autopct='%1.1f%%' Eska use hai ki ye percentage ko show karega pie chart me
 plt.show()
 
+
+
+#3- Steps of doing Bivariate Analysis Matlb do col ka Ek sath analysis karna hai
+
+# Select 2 cols
+# Understand type of relationship
+
+#1-  Numerical - Numerical
+#    a. You can plot graphs like scatterplot(regression plots), 2D histplot, 2D KDEplots
+#    b. b. Check correlation coefficent to check linear relationship
+
+# Numerical - Categorical - create visualizations that compare the distribution of 
+#                           the numerical data across different categories of the categorical data.
+#   a. You can plot graphs like barplot, boxplot, kdeplot violinplot even scatterplots
+
+# Categorical - Categorical
+# a. You can create cross-tabulations or contingency tables that show the distribution of values in one categorical column,
+#    grouped by the values in the other categorical column.
+# b. You can plots like heatmap, stacked barplots, treemaps
+
+# Write your conclusions  ?
