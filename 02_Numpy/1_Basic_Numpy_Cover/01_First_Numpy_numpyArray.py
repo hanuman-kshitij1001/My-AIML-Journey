@@ -2,11 +2,11 @@
 # Step 1: Sabse Pahele Hame numpy ko import karna padta hai 
 import numpy as np
 
-#Step 2: ab apa Numpy Array Create kar sakte ho Using Finction Called "np.array" se
-var = np.array([1,2,3,4])  # Waise Esko Kuch nahi chahiye esse basicly Ek Liist Chahiye Andhr me 
+#Step 2: ab apna Numpy Array Create kar sakte ho Using Finction Called "np.array" se
+var = np.array([1,2,3,4])  # Waise Esko Kuch nahi chahiye esse basicly Ek List Chahiye Andhr me 
 print(var) # apka Ko Yaha Se numpy Array Mill Jayega 
 print(type(var)) # ye Apko Batayega Ki ye Numpy Array hai 
-
+# Note : Yeh error dega, kyunki np.array() ko kam se kam ek argument chahiye hota hai.
 
 # We Can Create 2-D array As Well as 
 b = np.array([[1,2,3],[4,5,6]])
@@ -19,9 +19,18 @@ print(c)
 
 # Note :
 #1: Pahla Array 1-D called As Vector
-#2: Dusra Array 2-D Array Apna Usse haam matrix Bolte hai 
+#2: Dusra Array 2-D Array Apan Usse matrix Bolte hai 
 #3: Third Is Called tensor
 # Ess Traha Se aap 4,5,6 ... Kitne bhi dimension ka Ek NumpiArray Bana Sakte ho 
+
+# Important Reality
+# Technically:
+# Vector = 1D Tensor
+# Matrix = 2D Tensor
+# 3D Array = 3D Tensor
+# 4D Array = 4D Tensor
+# 5D Array = 5D Tensor
+# ...
 
 
 # Abhi Tak Jitne Bhi Haamne Data Use kiya hai Wo sare ke sare integer the Haam Esse Kisssi Bhi Type Ka Ban sakte hai 
@@ -30,6 +39,8 @@ print(c)
 # Apko Kuch nahi karn hai 
 # Bass Likhna hai np.array([1,2,3], dtype=float)  
 # bass etna List banne ke baad bass apko "dtype = data_type" Ye Likhna Maat bhulna 
+
+
 #Ex:1
 d = np.array([1,2,3], dtype=float) 
 print(d)
@@ -39,5 +50,4 @@ print(e)
 #Ex:3
 f = np.array([1,2,3], dtype = complex)
 print(f)
-
 # Note : Float jada use karte hai haam bhai 
