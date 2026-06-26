@@ -1,10 +1,11 @@
 # Bahot Sare Function Hote hia 
 # Sabkuch padhna yaad rakhna possible nahi hai 
-# sabse  Jada Usse Hone wale function jo hia ML Uar DS me Wo haam padhnge theek hai na 
+# sabse  Jada Usse Hone wale function jo hia ML aur DS me Wo haam padhnge theek hai na 
 # Ye sare Function Sare Maths ke hai 
-
+# Note : np.round aur np.round.round mein bahut bada difference hai:
+# np.round : Yaani decimal places round kar deta hai.
+# np.round.round: 
 import numpy as np
-
 a = np.random.random((3,3))
 b = np.round(a*100)
 print(b)

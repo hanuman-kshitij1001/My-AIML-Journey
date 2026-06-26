@@ -1,4 +1,4 @@
-# Yaha ndim ka matlb Number Of Dimension
+# Yaha ndim(Number of Dimensions- Yaani array kitni dimensions ka hai, ye batata hai.) ka matlb Number Of Dimension
 # matlb Ap ndim ka usse karke Kiisi array ka Dimenstion pata kar sakte ho 
 import numpy as np
 

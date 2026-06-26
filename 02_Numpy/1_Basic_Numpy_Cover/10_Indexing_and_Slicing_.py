@@ -7,7 +7,7 @@ a3 = np.arange(8).reshape(2,2,2)
 
 
 #@ Indexing : Ek Baar me Ek Element hi nikal Paoge Ge Indexing se 
-#@ Man Lo Koi Bolo LAst Element batao 
+#@ Man Lo Koi Bola LAst Element batao 
 print(a1[0])
 
 #@ Chalo 2 D pe kaam karte hai 

@@ -1,6 +1,6 @@
 import numpy as np
 
-# linspcace kya karta hai ki  ek linear range me equal points me number genrate karta hai 
+# linspcace kya karta hai ki ek linear range me equal points me number genrate karta hai 
 # Syntax: np.linspace(start, stop, num)  or (lower_Range , Upper_Range, Number_Of_Items)
 # start = kahan se shuru karna hai,  stop = kahan tak jana hai, num = kitne equally spaced numbers chahiye
 

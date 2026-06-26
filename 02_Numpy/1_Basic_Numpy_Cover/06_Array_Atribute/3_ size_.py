@@ -1,4 +1,4 @@
-# Size Apko Ye Batayeg aj=ga Ki Number of items Kitne hai 
+# Size Apko Ye Batayega ga Ki Number of items Kitne hai 
 
 import numpy as np
 

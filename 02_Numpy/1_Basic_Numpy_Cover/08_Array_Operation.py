@@ -1,7 +1,6 @@
 #  Aap Apne ArrayNumpy Me Bahut sare Mathitical Operation Kar sakte hia  Sare ke sare Aaj Nahi Sikhoge 
 
 import numpy as np
-
 a = np.arange(12).reshape(3,4)
 b = np.arange(12, 24).reshape(3,4)
 print(a)
