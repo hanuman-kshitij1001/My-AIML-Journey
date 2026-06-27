@@ -144,6 +144,6 @@ import numpy as np
 
 # Slicing 
 
-a = np.array([1,2,3,6,4,8,5])  # array[start:stop:step]
-slic = a[3:5]
-print(slic)
+# a = np.array([1,2,3,6,4,8,5])  # array[start:stop:step]
+# slic = a[3:5]
+# print(slic)
