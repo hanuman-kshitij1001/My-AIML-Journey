@@ -147,3 +147,103 @@ import numpy as np
 # a = np.array([1,2,3,6,4,8,5])  # array[start:stop:step]
 # slic = a[3:5]
 # print(slic)
+
+
+# a = np.array([1,2,3,4,5])
+# b = np.array([6,7,8,9,2])
+# print(a.concat(b))
+
+# Seed function 
+
+# np.random.seed(42)
+# var = np.random.random(3).astype(int) 
+# b = np.round(var*100,0).astype(int)
+# print(var)
+# print(b)
+
+# pehle array bana, BAAD MEIN badlo
+# var = np.array([1.5, 2.7, 3.9])   # pehle bana
+# var2 = var.astype(int)             # baad mein badla
+# print(var2)
+
+# rang = np.random.default_rng(42)
+# print(rang)
+# val = rang.integers(low = 10, high=5852000, size=5)
+# print(val)
+
+
+#  Ditribution 
+# rng = np.random.default_rng(42)
+
+# val1 = rng.uniform(low=0, high=10, size=5)   # 0-10 ke beech
+# val2 = rng.normal(loc=5, scale=1, size=5)    # beech mein zyada
+# val3 = rng.binomial(n=10, p=0.5, size=5)     # 0-10 ke beech integers
+
+# print(val1)
+# print(val2)
+# print(val3)
+
+
+# student = np.arange(124,180)
+# val = student.reshape(5,-1)
+# print(val)
+# print()
+# new = val.flatten()
+# print(new)
+# print()
+# val2 = new.resize()
+# print(val2)
+
+# a = np.arange(6)
+# b = np.arange(5,11)
+# result = np.vstack([a,b])
+# print(result)
+# print()
+# c = np.arange(10,12)
+# d = np.arange(9,15)
+# result = np.hstack([c,d])
+# print(result)
+
+# spliting'
+# arr = np.array([1,5,3,9,5,7,5,9,5])
+# result = np.split(arr, 3)  # Zarori hai ki array barabar tukdon mein bate!
+# print(result)
+
+# arr = np.array([[1, 2, 3,4],
+#                 [4, 5, 6,7],
+#                 [7, 8, 9,3],
+#                 [10,11,12,10]])
+
+# result = np.hsplit(arr,2)
+# print(result)
+# print(result[0])
+
+# Vectorization
+
+#  Ye ha Normal Zindagi 
+# marks = [10, 20, 30, 40, 50] 
+# new_marks = []
+# for mark in marks:
+#     new_marks.append(mark+5)
+# print(new_marks)
+
+# Ab Dekho mentos jindgi 
+marks = np.array([10, 20, 30, 40, 50]) 
+new_marks = marks + 5
+print(new_marks)
+
+
+import time
+data = list(range(1000000))
+arr = np.array(data)
+
+#  Oython Loop se karu toh kya Honga 
+
+start = time.time()
+result = [x * 2 for x in data]
+print(f"Loop time: {time.time() - start:.4f} seconds")
+
+# NumPy Vectorized
+start = time.time()
+result = arr * 2
+print(f"NumPy time: {time.time() - start:.4f} seconds")
