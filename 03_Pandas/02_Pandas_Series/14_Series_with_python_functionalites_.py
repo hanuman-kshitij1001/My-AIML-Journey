@@ -41,7 +41,7 @@ b = 'Aliya Bhatt' in movies
 print(b)  # False
 
 # Looping : Agr aap Chaho Toh loop Chala Sakte ho : 
-# Yad Rakhna Loop Value Ke Uppar raun karta hai 
+# Yad Rakhna Loop Value Ke Uppar run karta hai 
 for i in movies:
     print(movies)
 # ab Ye Index Print karega 

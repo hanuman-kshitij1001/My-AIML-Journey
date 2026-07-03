@@ -14,3 +14,12 @@
 # Har column ka alag type ho sakta hai (int, string, float)
 # Data clean, analyze aur manipulate karne ke liye use hota hai
 # Machine Learning + Data Science ka base tool hai
+
+
+# Recap + Thoda Refine : 
+
+# DataFrame = Python ka table/spreadsheet jaisa structure, jisme:
+# 1- Rows + Columns dono hote hain (isliye ise 2D bolte hain — Series 1D thi, DataFrame 2D hai)
+# 2- Har column ek alag data type hold kar sakta hai (jaise Name → string, Age → int, Marks → float)
+# ➕ Har row/column ka apna index/label hota hai (jaise Series mein tha)
+# ➕ Excel sheet ya SQL table jaisa feel hota hai — lekin Python code se fully control hota hai

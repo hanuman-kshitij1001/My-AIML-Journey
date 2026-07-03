@@ -1,4 +1,4 @@
-# Haam Kay KAr rahe hi aki series class ke Object bana rahe hi a
+# Haam Kya Kar rahe hai ki series me,  class ki Object bana rahe hai
 # Yaha Haam Series Ke Kuch bahut jada import attribute batane wale hia bahut imp 
 
 #1: size
@@ -31,7 +31,8 @@ print(marks.name)
 print(marks.is_unique) # True
 
 #5: index : Esko Call Karne Se series me Jitne bhi Index wo Mill Jate hai 
-print(marks.index)  
+print(marks.index) 
+ 
 # RangeIndex(start=0, stop=7, step=1)
 
 #6: Values : Ye hame 

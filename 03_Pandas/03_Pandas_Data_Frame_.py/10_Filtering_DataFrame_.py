@@ -21,7 +21,7 @@ students2 = pd.DataFrame(student_dict)
 # Ab Haam Yaha Se Fiter karna sikhre Honge 
 # Apko Data Milega Logical Basis Pe apko Yah Data Ko filter karn ahonga 
 
-# Chalo Apne IPL wale DataSet Pe kaam KArte hai 
+# Chalo Apne IPL wale DataSet Pe kaam Karte hai 
 
 #Q1: Find all the final winners 
 

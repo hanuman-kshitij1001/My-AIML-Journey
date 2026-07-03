@@ -1,4 +1,4 @@
-# Abhi Tak Series hamne Python list e banay ya Dic se banay lekin ab haam Real Data set se resies banane wale hai 
+# Abhi Tak Series hamne Python list e banay ya Dic se banay lekin ab haam Real Data set se Series banane wale hai 
 # Ek Function Hai Read csv files 
 
 # data Set link : https://drive.google.com/drive/folders/1IfYgDQzE8B_VOAik6Qha06Ok-NXLb98q
@@ -9,7 +9,7 @@
 # Sabse Pahle Hum Subs.cvs kya hai Ye kya hai # Ye sir ka Data hai Esme ye hia ki sir ke channe ne kitne subscripser gain kiya 
 # Chalo Esse Series me convert karte hia 
 import pandas as pd
-import pandas as pd
+
 
 df = pd.read_csv('03_Pandas/02_Pandas_Series/09_DataSet_subs.csv')
 print(df.head()) 
@@ -20,6 +20,7 @@ print(type(df))  # <class 'pandas.core.frame.DataFrame'>
 # Apko Bass Ek Chota sa change karna hai that is Ek Pracmeter hai 
 df = pd.read_csv('03_Pandas/02_Pandas_Series/09_DataSet_subs.csv')
 s = df.squeeze()   # ye Data Frame Nahi Banne De raha Hai Queeze bana de raha hai 
+# Agar DataFrame me sirf 1 row ya 1 column ho, to squeeze() usse chhote object me convert kar deta hai.
 print(type(s))
 print(s.head())
 # Ye sahi se nahi bane hai 

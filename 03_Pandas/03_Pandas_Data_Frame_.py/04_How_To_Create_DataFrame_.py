@@ -1,8 +1,8 @@
 # Eske Bahut tarike hai 
-# Agr apko Data frame banna hia Toh Akko 2-D list ki Jarurat Padegi 
-# chalo Isse List se banate hia 
+# Agr apko Data frame banna hai Toh Apko 2-D list ki Jarurat Padegi 
+# chalo Isse List se banate hai 
 
-# using lists
+# using lists 
 import pandas as pd
 student_data = [  # Esme 
     [100,80,10],

@@ -17,11 +17,11 @@ print(marks_series)
 #2: what if an index does not exist
 # marks_series['evs'] = 100
 # this Code is Not through An error 
-# If It Is Not Avlable Then New Item Can be Added Bro 
+# If It Is Not Aivlable Then New Item Can be Added Bro 
 # If Is not avible it automatically created
 
 #3:  slicing
-#ye Sam ekaam Haam slicing me bhi kar sakte hai 
+#ye Same kaam Haam slicing me bhi kar sakte hai 
 # runs_ser[2:4] = [100,100]
 # runs_ser
 

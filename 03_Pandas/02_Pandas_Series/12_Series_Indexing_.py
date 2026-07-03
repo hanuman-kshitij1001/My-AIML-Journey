@@ -35,7 +35,7 @@ print(b)
 
 
 #4: fancy indexing  
-# Mujhe ye Pata karn ahia ki 1, 3, 4,5 match me kitne runs banaye 
+# Mujhe ye Pata karna hia ki [1, 3, 4, 5] match me kitne runs banaye 
 d = vk[[1,3,4,5]]
 print(type(vk))
 print()
