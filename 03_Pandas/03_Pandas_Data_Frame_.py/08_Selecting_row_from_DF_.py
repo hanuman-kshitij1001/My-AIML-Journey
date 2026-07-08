@@ -38,7 +38,7 @@ print(movies.iloc[[0,4,5]])
 students2.loc['nitish']
 students2.loc['nitish':'rishabh':2]
 students2.loc[['nitish','ankita','rupesh']]
-students2.iloc[[0,3,4]]
+students2.iloc[[0,5,5]]
 
 
 
