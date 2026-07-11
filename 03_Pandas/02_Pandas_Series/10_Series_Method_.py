@@ -66,7 +66,7 @@ print(subs.sample(5))
 #         sample()	       Random rows
 
 
-# 3:Value Count ; e kya karta hai ki data Me Value ki Jo Freq Hai Wo Count karke bata hai 
+# 3:Value Count ; yee kya karta hai ki data Me Value ki Jo Freq Hai Wo Count karke bata hai 
 
 s = pd.Series(["A", "B", "A", "C", "B", "A"])
 print(s.value_counts())

@@ -2,7 +2,7 @@ import numpy as np
 # Ye Topic Me Bahot Sare Longo Confusion Rahta hai Dhyan se padhna esse 
 
 # Board Casting Kya hota hai : Boardcasting Ye batata Hia Ki Numpy do  diffrent Shape Wale Array Ko Kaise Treate Karta Hai While Performing Arthmati operations 
-# Sabse Ye Samjh oki Boardcsating Ki Jarurat Kaha Padi
+# Sabse pahele Ye Samjo ki Boardcsating Ki Jarurat Kaha Padi
 a = np.arange(6).reshape(2,3)
 b = np.arange(6).reshape(2,3)
 print(a)
@@ -22,7 +22,9 @@ print(a+b)  # Add ho Raha hai Yahi Boardcasting Hai
 # Eske Kuch Rules Bhi Hai Jaise 
 
 # Rule Kewal 3 Hia Bass
-#1 Make The 2 Array Have Same number of Dimension mak Size me hamesha Jayega
-#Baki Rule Aur Notes me hai 
+# 1 Make The 2 Array Have Same number of Dimension mak Size me hamesha Jayega
+# Baki Rule Aur Notes me hai 
 # Rule Hi Help karnge ki Andhr Kaise Adding Ho Rahi hai bhai 
+
+
 # https://colab.research.google.com/drive/1RVe07-2VU4Jft8GLFyf10PrQIOVfffaR?usp=sharing#scrollTo=n2UP2iZTLPR5

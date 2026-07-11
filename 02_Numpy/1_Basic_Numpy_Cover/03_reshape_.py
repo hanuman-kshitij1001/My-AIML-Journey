@@ -12,5 +12,17 @@ import numpy as np
 
 
 # np ones and np zeros 
-val = np.ones((3,3) , dtype='bool')
+val = np.ones((3,3) )
 print(val)
+
+val = np.zeros((3,3) )
+print(val)
+
+
+val = np.ones((3,3), dtype='bool' )
+print(val)
+
+val = np.eye((3,3))
+print(val)
+
+

@@ -1,4 +1,4 @@
-#Numpy vs list
+# Numpy vs list
 # yaha Haam Comapre krne ke liye 3 Cheeze Choose kar rahe hai 
 #1- Speed
 #2- memory

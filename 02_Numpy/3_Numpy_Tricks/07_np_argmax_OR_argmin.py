@@ -14,7 +14,7 @@ m = np.argmax(c,axis = 1) # axis = 1 Matlb row Hota hai 0 col vise
 print(m)
 
 
-# Note : 1-DMe esse Jada Use karte Hai 2-D me Bahut rear Use hota Hai 
+# Note : 1-D Me esse Jada Use karte Hai 2-D me Bahut rear Use hota Hai 
 
 # Eska Ek Bhai Hai min 
 b = np.argmin(a)

@@ -11,7 +11,7 @@ print(a[1:3,1:3])
 
 
 # 1: Fancy Indexing:
-# agr mai Bolu 1 row, 3rd row, 4th row Nikal ke dikhao Toh Ye aap Normal Indeing se nahi nikal Paoge 
+# agr mai Bolu 1 row, 3rd row, 4th row Nikal ke dikhao Toh Ye aap Normal Indexing se nahi nikal Paoge 
 # Matlb Yaha Pe koi Patern Baan Hi Nahi Pata hai Jisse aap Indexing karo 
 # Esliye En Sab ko Handle Karne ke Liye Haam Use karte hai Fancy Indexing 
 # Fancy-Indexing Kya Hoti hai ki :

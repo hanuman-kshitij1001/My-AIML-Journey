@@ -4,7 +4,7 @@ a = np.random.randint(1,100,15)
 b = np.random.randint(1,100,24).reshape(6,4)
 
 print(a)
-# [ 6 64 41 74 72 30 20 18 81 45 51 85 52 35 87]
+# [6 64 41 74 72 30 20 18 81 45 51 85 52 35 87]
 
 print()
 
