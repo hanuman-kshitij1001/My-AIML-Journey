@@ -204,20 +204,34 @@ A: Absolutely. Fork it, clone it, or just read through the notebooks in order.
 
 ---
 
+## 👥 Contributors
+
 <div align="center">
 
 <table>
 <tr>
-<td align="center">
+<td align="center" width="200px">
 <a href="https://github.com/hanuman-kshitij1001">
-<img src="https://github.com/hanuman-kshitij1001.png" width="80px;" style="border-radius:50%"/><br />
+<img src="https://ui-avatars.com/api/?name=Kshitij+Tiwari&background=6366f1&color=fff&size=120&rounded=true&bold=true&font-size=0.4" width="100px;"/><br />
 <sub><b>Kshitij Tiwari</b></sub>
 </a>
+<br/>
+<sub>🧠 Repo Owner</sub>
+<br/>
+<a href="https://github.com/hanuman-kshitij1001">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+</a>
 </td>
-<td align="center">
+<td align="center" width="200px">
 <a href="https://github.com/Tiwarji1001">
-<img src="https://ui-avatars.com/api/?name=Kshitij+Tiwari&background=6366f1&color=fff&size=80&rounded=true&bold=true" width="80px;"/><br />
+<img src="https://ui-avatars.com/api/?name=Kshitij+Tiwari&background=ec4899&color=fff&size=120&rounded=true&bold=true&font-size=0.4" width="100px;"/><br />
 <sub><b>Kshitij Tiwari</b></sub>
+</a>
+<br/>
+<sub>🤝 Collaborator</sub>
+<br/>
+<a href="https://github.com/Tiwarji1001">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
 </a>
 </td>
 </tr>
