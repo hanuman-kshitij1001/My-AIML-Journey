@@ -67,22 +67,24 @@ This isn't a polished project repo — it's a **living notebook**. Every folder 
 
 ## 🚀 Learning Roadmap
 
-```
-[✔] Python Fundamentals
-[✔] NumPy & Pandas
-[✔] Data Visualization (Matplotlib + Seaborn)
-[✔] Data Gathering, Assessing & Cleaning
-[✔] Exploratory Data Analysis
-[✔] Mathematics for ML
-[~] Machine Learning Algorithms    <-- currently here
-[ ] Deep Learning Basics
-[ ] Model Deployment
-[ ] End-to-End ML Projects
-```
-
 <div align="center">
 
-![Progress](https://img.shields.io/badge/Overall%20Progress-60%25-brightgreen?style=for-the-badge)
+| Status | Topic | Progress |
+|:---:|---|---|
+| ✅ | Python Fundamentals | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| ✅ | NumPy & Pandas | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| ✅ | Data Visualization (Matplotlib + Seaborn) | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| ✅ | Data Gathering, Assessing & Cleaning | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| ✅ | Exploratory Data Analysis | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| ✅ | Mathematics for ML | ![100%](https://img.shields.io/badge/-100%25-brightgreen) |
+| 🟡 | **Machine Learning Algorithms** *(in progress)* | ![40%](https://img.shields.io/badge/-40%25-yellow) |
+| ⬜ | Deep Learning Basics | ![0%](https://img.shields.io/badge/-0%25-lightgrey) |
+| ⬜ | Model Deployment | ![0%](https://img.shields.io/badge/-0%25-lightgrey) |
+| ⬜ | End-to-End ML Projects | ![0%](https://img.shields.io/badge/-0%25-lightgrey) |
+
+### Overall Progress
+
+![Progress](https://img.shields.io/badge/Overall%20Progress-60%25-brightgreen?style=for-the-badge&labelColor=1a1a2e)
 
 </div>
 
