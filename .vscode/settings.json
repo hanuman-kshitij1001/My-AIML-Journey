@@ -1,3 +1,4 @@
 {
-    "notebook.cellExecutionTimeVerbosity": "verbose"
+    "notebook.cellExecutionTimeVerbosity": "verbose",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
 }
