@@ -130,11 +130,10 @@ The goal isn't to look impressive — it's to build a **traceable record of grow
 | 04 | **Matplotlib** | 📈 Data visualization basics |
 | 05 | **Plotting_Using_Seaborn** | 🎨 Statistical plotting with Seaborn |
 | 06 | **Data_Gathering_Analysis** | 🌐 Collecting & analyzing raw data |
-| 07 | **Data_Assessing_nd_Cleaning** | 🧹 Data quality & cleaning workflows |
+| 07 | **Data_Assessing_and_Cleaning** | 🧹 Data quality & cleaning workflows |
 | 08 | **EDA** | 🔍 Exploratory Data Analysis |
-| 09 | **Maths_** | ➗ Math foundations for ML (Linear Algebra, Stats, Calculus) |
-| 10 | **Machine-Learing** | 🤖 ML algorithms & implementations |
-
+| 09 | **Maths** | ➗ Math foundations for ML (Linear Algebra, Stats, Calculus) |
+| 10 | **Machine-Learning** | 🤖 ML algorithms & implementations |
 </div>
 
 ---
