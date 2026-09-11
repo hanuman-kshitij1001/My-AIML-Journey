@@ -29,7 +29,7 @@ import os
 
 # Yaha apni files/folders ke naam daal do (bina .ipynb extension ke)
 names = [
-    "49_PCA_Part3_Code_Example_and_Visualization",
+    "",
     
 ]
 
