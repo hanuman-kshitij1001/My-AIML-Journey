@@ -29,10 +29,10 @@ import os
 
 # Yaha apni files/folders ke naam daal do (bina .ipynb extension ke)
 names = [
-    "",
-    
+    "58_Batch_Gradient_Descent_with_Code_Demo",
+    "59_Stochastic_Gradient_Descent",
+    "60_Mini_Batch_Gradient_Descent",
 ]
-
 # Minimal empty notebook structure
 empty_notebook = {
     "cells": [],
