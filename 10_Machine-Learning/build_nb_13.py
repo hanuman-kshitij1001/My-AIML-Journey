@@ -24,46 +24,46 @@
 
 
 
-import json
-import os
+# import json
+# import os
 
-# Yaha apni files/folders ke naam daal do (bina .ipynb extension ke)
-names = [
-    "58_Batch_Gradient_Descent_with_Code_Demo",
-    "59_Stochastic_Gradient_Descent",
-    "60_Mini_Batch_Gradient_Descent",
-]
-# Minimal empty notebook structure
-empty_notebook = {
-    "cells": [],
-    "metadata": {
-        "kernelspec": {
-            "display_name": "Python 3",
-            "language": "python",
-            "name": "python3"
-        },
-        "language_info": {
-            "name": "python",
-            "version": "3.x"
-        }
-    },
-    "nbformat": 4,
-    "nbformat_minor": 5
-}
+# # Yaha apni files/folders ke naam daal do (bina .ipynb extension ke)
+# names = [
+#     "58_Batch_Gradient_Descent_with_Code_Demo",
+#     "59_Stochastic_Gradient_Descent",
+#     "60_Mini_Batch_Gradient_Descent",
+# ]
+# # Minimal empty notebook structure
+# empty_notebook = {
+#     "cells": [],
+#     "metadata": {
+#         "kernelspec": {
+#             "display_name": "Python 3",
+#             "language": "python",
+#             "name": "python3"
+#         },
+#         "language_info": {
+#             "name": "python",
+#             "version": "3.x"
+#         }
+#     },
+#     "nbformat": 4,
+#     "nbformat_minor": 5
+# }
 
-for name in names:
-    # 1. folder banao (agar pehle se nahi hai)
-    os.makedirs(name, exist_ok=True)
+# for name in names:
+#     # 1. folder banao (agar pehle se nahi hai)
+#     os.makedirs(name, exist_ok=True)
 
-    # 2. usi naam se andar .ipynb file banao
-    filepath = os.path.join(name, f"{name}.ipynb")
+#     # 2. usi naam se andar .ipynb file banao
+#     filepath = os.path.join(name, f"{name}.ipynb")
 
-    if os.path.exists(filepath):
-        print(f"Already exists, skipping: {filepath}")
-        continue
+#     if os.path.exists(filepath):
+#         print(f"Already exists, skipping: {filepath}")
+#         continue
 
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(empty_notebook, f, indent=1)
-    print(f"Created: {filepath}")
+#     with open(filepath, "w", encoding="utf-8") as f:
+#         json.dump(empty_notebook, f, indent=1)
+#     print(f"Created: {filepath}")
 
-print("\nDone! Total folders/files:", len(names))
+# print("\nDone! Total folders/files:", len(names))
