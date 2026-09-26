@@ -21,7 +21,7 @@ Thumbs.db
 "@ | Set-Content -Path ".gitignore" -Encoding UTF8
 
 
-61_*/
+
 62_*/
 63_*/
 64_*/
