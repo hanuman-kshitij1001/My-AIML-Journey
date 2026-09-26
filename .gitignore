@@ -20,7 +20,7 @@ __pycache__/
 Thumbs.db
 "@ | Set-Content -Path ".gitignore" -Encoding UTF8
 
-60_*/
+
 61_*/
 62_*/
 63_*/
