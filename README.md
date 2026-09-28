@@ -2,7 +2,7 @@
 
 # 🧠 My-AIML-Journey
 
-### *Documenting my daily grind in Artificial Intelligence & Machine Learning*
+### *|Documenting my daily grind in Artificial Intelligence & Machine Learning|*
 
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-93.9%25-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](.)
 [![Python](https://img.shields.io/badge/Python-6.1%25-3776AB?style=for-the-badge&logo=python&logoColor=white)](.)
