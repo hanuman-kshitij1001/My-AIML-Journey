@@ -19,7 +19,7 @@
 
 ### 📌 About
 
-> A daily-updated learning log covering everything from Python fundamentals to Machine Learning models — code, notes, and experiments, all in one place.
+> A daily-updated Learning log covering everything from Python fundamentals to Machine Learning models — code, notes, and experiments, all in one place.
 
 This isn't a polished project repo — it's a **living notebook**. Every folder marks a milestone in the journey from *"I can write a for-loop"* to *"I can train a model."*
 
