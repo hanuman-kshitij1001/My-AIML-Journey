@@ -17,7 +17,8 @@ import pandas as pd
 #     'b' : '20',
 #     'c' : '30',
 #     'd' : '40',
-#     'e' : '50'
+#     'e' : '50',
+#     'f' : '60'
 # }
 
 # df = pd.Series(data)
