@@ -28,7 +28,7 @@ plt.tight_layout()
 plt.savefig("chart_price_distribution.png", dpi=150)
 plt.show()
 
-# ---- Chart 3: Rating Count ----
+# ---- Chart 3: Rating Count yes its is use full to understand how much rate younhave ----
 plt.figure(figsize=(8, 5))
 rating_counts = df["Rating"].value_counts().sort_index()
 sns.barplot(x=rating_counts.index, y=rating_counts.values, palette="Greens_d")
