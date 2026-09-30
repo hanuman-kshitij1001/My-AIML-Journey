@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 My-AIML-Journey
+# My-AIML-Journey
 
 ### *|Documenting my daily grind in Artificial Intelligence & Machine Learning|*
 
