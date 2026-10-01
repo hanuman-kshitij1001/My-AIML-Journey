@@ -11,12 +11,12 @@ except:
 
 
 try:
-    m = 5
+    m = 5000
     f = open('sample.txt','r')
     print(m)
     print(5/0)
 except FileNotFoundError:
-    print('file Not found')
+    print('file Not foundplease try again')
 except NameError:
     print('Variable not define')
 except ZeroDivisionError:
