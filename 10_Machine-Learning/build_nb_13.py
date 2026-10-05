@@ -76,11 +76,11 @@ import re
 BASE_DIR = Path.cwd()
 
 videos = [
-    "Polynomial Regression | Machine Learning",
+    #"Polynomial Regression | Machine Learning",
 
-    "Bias Variance Trade-off | Overfitting and Underfitting in Machine Learning",
+    #"Bias Variance Trade-off | Overfitting and Underfitting in Machine Learning",
 
-    "Ridge Regression Part 1 | Geometric Intuition and Code | Regularized Linear Models",
+    #"Ridge Regression Part 1 | Geometric Intuition and Code | Regularized Linear Models",
 
     "Ridge Regression Part 2 | Mathematical Formulation & Code from scratch | Regularized Linear Models",
 
