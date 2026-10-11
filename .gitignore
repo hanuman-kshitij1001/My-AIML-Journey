@@ -18,7 +18,7 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
-"@ | Set-Content -Path ".gitignore" -Encoding UTF8
+"@ | Set-Content -Path ".gitignore" -Encoding UTF8"
 
 64_*/
 65_*/
