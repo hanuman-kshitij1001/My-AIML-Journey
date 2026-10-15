@@ -82,23 +82,28 @@ videos = [
 
     #"Ridge Regression Part 1 | Geometric Intuition and Code | Regularized Linear Models",
 
-    "Ridge Regression Part 2 | Mathematical Formulation & Code from scratch | Regularized Linear Models",
+    # "Ridge Regression Part 2 | Mathematical Formulation & Code from scratch | Regularized Linear Models",
 
-    "Ridge Regression Part 3 | Gradient Descent | Regularized Linear Models",
+    # "Ridge Regression Part 3 | Gradient Descent | Regularized Linear Models",
 
-    "5 Key Points - Ridge Regression | Part 4 | Regularized Linear Models",
+    # "5 Key Points - Ridge Regression | Part 4 | Regularized Linear Models",
 
-    "Lasso Regression | Intuition and Code Sample | Regularized Linear Models",
+    # "Lasso Regression | Intuition and Code Sample | Regularized Linear Models",
 
-    "Why Lasso Regression creates sparsity?",
+    # "Why Lasso Regression creates sparsity?",
 
-    "ElasticNet Regression | Intuition and Code Example | Regularized Linear Models",
+    # "ElasticNet Regression | Intuition and Code Example | Regularized Linear Models",
 
-    "Logistic Regression Part 1 | Perceptron Trick",
+    # "Logistic Regression Part 1 | Perceptron Trick",
 
-    "Logistic Regression Part 2 | Perceptron Trick Code",
+    # "Logistic Regression Part 2 | Perceptron Trick Code",
 
-    "Logistic Regression Part 3 | Sigmoid Function | 100 Days of ML"
+    # "Logistic Regression Part 3 | Sigmoid Function | 100 Days of ML"
+     
+    # "Logistic Regression Part 4 | Loss Function | Maximum Likelihood | Binary Cross Entropy"
+    "LR part 5 | Gradient Descent & Code From Scratch"
+
+
 ]
 
 
@@ -119,7 +124,7 @@ def clean_name(name):
     return name.strip()
 
 
-for number, title in enumerate(videos, start=61):
+for number, title in enumerate(videos, start=74):
 
     # Clean title for Windows
     clean_title = clean_name(title)
