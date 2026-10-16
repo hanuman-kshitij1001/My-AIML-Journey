@@ -101,7 +101,7 @@ videos = [
     # "Logistic Regression Part 3 | Sigmoid Function | 100 Days of ML"
      
     # "Logistic Regression Part 4 | Loss Function | Maximum Likelihood | Binary Cross Entropy"
-    "LR part 5 | Gradient Descent & Code From Scratch"
+    "Accuracy and Confusion Matrix | Type 1 and Type 2 Errors | Classification Metrics Part 1"
 
 
 ]
@@ -124,7 +124,7 @@ def clean_name(name):
     return name.strip()
 
 
-for number, title in enumerate(videos, start=74):
+for number, title in enumerate(videos, start=75):
 
     # Clean title for Windows
     clean_title = clean_name(title)
