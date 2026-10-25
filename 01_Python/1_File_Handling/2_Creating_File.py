@@ -5,4 +5,5 @@
 f = open('1_sample.txt', 'w')  # Ye Code help Karta hai New FIle Banne ke liye Apke Folder me 
                                # Agr file pahle se bani hai toh ye usse open kar deta hai w yani write karne ke liye
 
-                               
+
+# Compelted Done
